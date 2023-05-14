@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <nav>
+    <nav className="#00e676 green accent-3">
       <div className="nav-wrapper">
         <a href="#" className="brand-logo">
           React Movies
