@@ -27,12 +27,6 @@ const Search = (props) => {
           onChange={(e) => setSearch(e.target.value)}
           onKeyDown={handleKey}
         />
-        <button
-          className="btn search-btn"
-          onClick={() => searchMovies(search, type)}
-        >
-          Search
-        </button>
       </div>
       <div>
         <label>
